@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <section class="flex flex-col bg-gray-200 pb-5 " id="container">
+
+        <p id="color" class="border-4 border-gray-700 mt-20 ml-40 mr-40 mb-10 p-40 self-center bg-gray-500 text-white">
+        </p>
+        <input type="text" class=" border-gray-800 border-4 w-40 self-center mb-10" id="inputText">
+        <button type="submit"
+            class="border-4 border-yellow-300 w-22 h-30 self-center bg-yellow-200 p-2 shadow-[-5px_4px_2px_black] ">CHANGE</button>
+    </section>
+    <section class="flex justify-center mb-20 m-10 ">
+        <div class="border-4 border-blue-400  bg-blue-300 w-72 h-40 text-center  mt-20">
+            <h2>HEIGHT</h2>
+            <p>IN CENTIMETERS</p>
+            <input type="number" name="" id="height">
+            <h2>WEIGHT</h2>
+            <p>IN KILOGRAMS</p>
+            <input type="number" name="" id="weight">
+            <button type="submit"
+                class="border-4 border-yellow-300 w-22 h-30 self-center bg-yellow-200 p-2 mt-10 shadow-[-5px_4px_2px_black] "
+                id="calculateButton"> CALCULATE </button>
+        </div>
+        <div class="border-4 border-blue-400  bg-blue-300 w-72 h-40 text-center  mt-20">
+            <h2>RESULTS</h2>
+            <p>YOUR BODY MASS INDEX IS </p>
+            <input type="text" id="results">
+        </div>
+    </section>
+
+    <section class="flex justify-center mb-40 m-10 flex-col">
+        <div class="border-4 border-pink-400 w-60 h-60 text-center  mt-20 bg-pink-200  leading-loose self-center">
+            <h2 class="font-bold">Local currency amount</h2>
+            <p>without commas or periods</p>
+            <input type="number" name="" id="local">
+            <h2 class="font-bold">Amount in dollars</h2>
+            <p>without commas or periods</p>
+            <input type="text" name="" id="dollar">
+        </div>
+        <div class="flex self-center gap-3">
+            <button type="submit" id="buttonForm1"
+                class="border-4 border-yellow-300 w-22 h-30 self-center bg-yellow-200 p-2 mt-10 shadow-[-5px_4px_2px_black] ">Convert</button>
+            <button type="reset" id="buttonForm2"
+                class="border-4 border-yellow-300 w-22 h-30 self-center bg-yellow-200 p-2 mt-10 shadow-[-5px_4px_2px_black] ">Delete</button>
+        </div>
+        <div class="border-4 border-pink-400 w-60 h-60 text-center  mt-20 bg-pink-200  leading-loose self-center">
+            <h2 class="font-bold">Amount in dollars</h2>
+            <p>without commas or periods</p>
+            <input type="number" name="" id="dollar2">
+            <h2 class="font-bold">Local currency amount</h2>
+            <p>without commas or periods</p>
+            <input type="text" name="" id="local2">
+        </div>
+        <div class="flex self-center gap-3">
+            <button type="submit" id="buttonForm2"
+                class="border-4 border-yellow-300 w-22 h-30 self-center bg-yellow-200 p-2 mt-10 shadow-[-5px_4px_2px_black] ">Convert</button>
+            <button type="reset" id="buttonForm3"
+                class="border-4 border-yellow-300 w-22 h-30 self-center bg-yellow-200 p-2 mt-10 shadow-[-5px_4px_2px_black] ">Delete</button>
+        </div>
+
+    </section>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
